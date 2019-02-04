@@ -20,10 +20,10 @@ public class MathCalculator extends CordovaPlugin {
             return true;
         }else if(action.equals("add")){
             this.add(args, callbackContext);
-            return true
+            return true;
         }else if(action.equals("substract")){
             this.substract(args, callbackContext);
-            return true
+            return true;
         }
         return false;
     }
